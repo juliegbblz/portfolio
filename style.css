@@ -23,6 +23,24 @@ body.portfolio-body {
   border-bottom: 1px solid var(--line);
 }
 
+/* Ensure navbar sits below the offcanvas and offcanvas backdrop */
+.portfolio-nav {
+  z-index: 100;
+  position: relative;
+}
+
+/* Offcanvas styling for mobile menu: solid surface background and shadow */
+.offcanvas {
+  background-color: var(--surface) !important;
+  box-shadow: 0 20px 60px rgba(47, 42, 40, 0.12);
+  z-index: 99999 !important;
+}
+
+/* Make sure the offcanvas backdrop sits below the offcanvas but above page content */
+.offcanvas-backdrop {
+  z-index: 99990 !important;
+}
+
 .portfolio-nav .nav-link,
 .portfolio-nav .navbar-brand {
   color: var(--dark) !important;
