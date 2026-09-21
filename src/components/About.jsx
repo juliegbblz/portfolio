@@ -70,15 +70,6 @@ export default function About() {
               />
             </div>
           </div> */}
-
-          {/* Floating overlapping Ivory Card: CURATED STRATEGY */}
-          <div className="col-12 col-md-5 col-lg-4 offset-lg-1">
-            <div className="curated-strategy-card shadow-sm">
-              <p className="strategy-card-quote">
-                {t('about.strategy_quote')}
-              </p>
-            </div>
-          </div>
       
     </section>
   )
