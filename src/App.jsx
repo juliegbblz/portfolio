@@ -177,9 +177,8 @@ const translations = {
     'passion.author_role': 'Nageuse en compétition depuis 14 ans & Participante aux Championnats de France Universitaires',
 
     // Contact
-    'contact.eyebrow': 'ME CONTACTER',
-    'contact.title': 'ÉCHANGER SUR UN PROJET',
-    'contact.sub': "À la recherche d'un stage de fin d'études de 6 mois à partir de mi-février 2027 en ingénierie logicielle, réseaux ou cybersécurité. Basée à Lyon et Nancy, France.",
+    'contact.title': 'ME CONTACTER',
+    'contact.sub': "À la recherche d'un stage de fin d'études de 6 mois à partir de mi-février 2027 en ingénierie logicielle, réseaux ou cybersécurité.",
     'contact.cta_cv': 'TÉLÉCHARGER LE CV (PDF)',
     'footer.back_top': 'Haut de page'
   }

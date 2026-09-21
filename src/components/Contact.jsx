@@ -9,18 +9,10 @@ export default function Contact() {
       <div className="container py-4">
         {/* Contact Banner / Callout */}
         <div className="editorial-contact-box text-center py-5 px-3">
-          <p className="editorial-eyebrow mb-2">{t('contact.eyebrow')}</p>
           <h2 className="editorial-section-title mb-3">{t('contact.title')}</h2>
           <p className="editorial-sub-text mb-4 mx-auto">{t('contact.sub')}</p>
 
-          <div className="mb-4">
-            <a
-              href="mailto:zilberbergjulie@gmail.com"
-              className="editorial-big-email"
-            >
-              zilberbergjulie@gmail.com
-            </a>
-          </div>
+          
 
           <div className="d-flex flex-wrap justify-content-center gap-3 mt-4">
             <a
