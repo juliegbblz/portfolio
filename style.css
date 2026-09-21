@@ -58,9 +58,9 @@ body {
 
 .brand-editorial {
   font-family: var(--font-serif);
-  font-size: 2.25rem;
+  font-size: 1.25rem;
   letter-spacing: 0.18em;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   color: var(--editorial-espresso);
   text-decoration: none;
