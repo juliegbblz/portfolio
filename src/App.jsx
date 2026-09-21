@@ -110,20 +110,17 @@ const translations = {
 
     // Hero
     'hero.title': 'Bienvenue sur mon portfolio',
-    'hero.sub': "Julie Zilberberg — Élève-ingénieure à Polytech Nancy en Informatique, Automatique & Réseaux. En recherche d'un stage de fin d'études de 6 mois à partir de mi-février 2027.",
+    'hero.sub': "Je m'appelle Julie Zilberberg : Élève-ingénieure à Polytech Nancy en Informatique, Automatique & Réseaux. En recherche d'un stage de fin d'études de 6 mois à partir de mi-février 2027.",
     'hero.cta': 'VOIR LES PROJETS',
     'hero.cta_cv': 'TÉLÉCHARGER LE CV',
 
     // About
-    'about.heading_line1': 'CONCEVOIR',
-    'about.heading_line2': 'DES SYSTÈMES',
-    'about.heading_line3': 'RÉFLÉCHIS',
-    'about.p1': 'Je suis étudiante en 5ᵉ année d’école d’ingénieur à Polytech Nancy, spécialisée en informatique et réseaux. J’ai réalisé plusieurs projets scolaires que je présente ici, et j’aime aussi concevoir et déployer mes propres systèmes, comme un serveur Plex entièrement containerisé sur mon Raspberry Pi (Linux, Docker, SSD, accès distant via Tailscale).',
-    'about.p2': 'En dehors des études, je fais de la natation en compétition depuis plus de 10 ans. Je m’entraîne six fois par semaine et j’ai participé aux championnats universitaires. Ces expériences ont renforcé ma discipline, ma constance et mon esprit d’équipe. J’aime aussi voyager, en famille comme entre amis.',
-    'about.strategy_title': 'RECHERCHE DE STAGE',
-    'about.strategy_quote': '« En recherche active d’un stage de fin d’études de 6 mois à partir de mi-février 2027 en ingénierie logicielle, réseaux ou cybersécurité. »',
-    'about.strategy_cta': 'TÉLÉCHARGER LE CV (PDF)',
-    'about.location': 'Basée à Lyon et Nancy, France',
+    'about.heading_line1': 'A',
+    'about.heading_line2': 'PROPOS',
+    'about.heading_line3': 'DE MOI',
+    'about.strategy_title': 'A PROPOS DE MOI',
+    'about.strategy_quote': '«Je suis étudiante en 5ᵉ année d’école d’ingénieur à Polytech Nancy, spécialisée en informatique et réseaux. J’ai réalisé plusieurs projets scolaires que je présente ici, et j’aime aussi concevoir et déployer mes propres systèmes, comme un serveur Plex entièrement containerisé sur mon Raspberry Pi (Linux, Docker, SSD, accès distant via Tailscale). En dehors des études, je fais de la natation en compétition depuis plus de 10 ans. Je m’entraîne six fois par semaine et j’ai participé aux championnats universitaires. Ces expériences ont renforcé ma discipline, ma constance et mon esprit d’équipe. J’aime aussi voyager, en famille comme entre amis.»',
+    
 
     // Experience & Education
     'exp.eyebrow': 'EXPÉRIENCE & FORMATION',

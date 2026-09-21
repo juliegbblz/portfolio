@@ -15,14 +15,6 @@ export default function Experience() {
       tags: ['ANSSI', 'EBIOS RM', 'IoT / LoRaWAN', 'Cybersecurity Audit']
     },
     {
-      id: 'polytech',
-      roleKey: 'exp.polytech.role',
-      companyKey: 'exp.polytech.company',
-      dateKey: 'exp.polytech.date',
-      descKey: 'exp.polytech.desc',
-      tags: ['IA2R', 'SIR Track', 'Distributed Systems', 'UNIX / C', 'Networks']
-    },
-    {
       id: 'avec',
       roleKey: 'exp.avec.role',
       companyKey: 'exp.avec.company',
