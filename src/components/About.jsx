@@ -37,9 +37,6 @@ export default function About() {
           {/* Right editorial descriptive copy */}
           <div className="col-12 col-lg-5">
             <div className="collage-narrative-box">
-              <p className="collage-narrative-text">
-                {t('Je suis étudiante en 5ᵉ année d’école d’ingénieur à Polytech Nancy, spécialisée en informatique et réseaux. J’ai réalisé plusieurs projets scolaires que je présente ici, et j’aime aussi concevoir et déployer mes propres systèmes, comme un serveur Plex entièrement containerisé sur mon Raspberry Pi (Linux, Docker, SSD, accès distant via Tailscale). En dehors des études, je fais de la natation en compétition depuis plus de 10 ans. Je m’entraîne six fois par semaine et j’ai participé aux championnats universitaires. Ces expériences ont renforcé ma discipline, ma constance et mon esprit d’équipe. J’aime aussi voyager, en famille comme entre amis.')}
-              </p>
             </div>
           </div>
         </div>
@@ -71,9 +68,6 @@ export default function About() {
           {/* Floating overlapping Ivory Card: CURATED STRATEGY */}
           <div className="col-12 col-md-5 col-lg-4 offset-lg-1">
             <div className="curated-strategy-card shadow-sm">
-              <h3 className="strategy-card-title">
-                {t('about.strategy_title')}
-              </h3>
               <p className="strategy-card-quote">
                 {t('about.strategy_quote')}
               </p>
