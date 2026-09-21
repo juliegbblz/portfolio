@@ -37,13 +37,19 @@ export default function About() {
           {/* Right editorial descriptive copy */}
           <div className="col-12 col-lg-5">
             <div className="collage-narrative-box">
+            <div className="curated-strategy-card shadow-sm">
+              <p className="strategy-card-quote">
+                {t('about.strategy_quote')}
+              </p>
+            </div>
+          </div>
             </div>
           </div>
         </div>
 
-        {/* Lower Collage Row: Inset artistic detail photos + Overlapping Curated Strategy Card */}
+        {/* Lower Collage Row: Inset artistic detail photos + Overlapping Curated Strategy Card }
         <div className="row g-4 align-items-center position-relative pt-2 pt-lg-4">
-          {/* Detail Inset Photo 1 */}
+          {/* Detail Inset Photo 1 }
           <div className="col-6 col-md-4 col-lg-3 offset-lg-2">
             <div className="collage-photo-frame collage-frame-detail">
               <img
@@ -52,7 +58,7 @@ export default function About() {
                 className="collage-img"
               />
             </div>
-          </div>
+          </div>*/}
 
           {/* {/* Detail Inset Photo 2 }
           <div className="col-6 col-md-3 col-lg-2">
@@ -73,8 +79,7 @@ export default function About() {
               </p>
             </div>
           </div>
-        </div>
-      </div>
+      
     </section>
   )
 }
