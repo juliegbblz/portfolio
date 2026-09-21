@@ -115,11 +115,10 @@ const translations = {
     'hero.cta_cv': 'TÉLÉCHARGER LE CV',
 
     // About
-    'about.heading_line1': 'A',
-    'about.heading_line2': 'PROPOS',
-    'about.heading_line3': 'DE MOI',
-    'about.strategy_title': 'A PROPOS DE MOI',
-    'about.strategy_quote': '«Je suis étudiante en 5ᵉ année d’école d’ingénieur à Polytech Nancy, spécialisée en informatique et réseaux. J’ai réalisé plusieurs projets scolaires que je présente ici, et j’aime aussi concevoir et déployer mes propres systèmes, comme un serveur Plex entièrement containerisé sur mon Raspberry Pi (Linux, Docker, SSD, accès distant via Tailscale). En dehors des études, je fais de la natation en compétition depuis plus de 10 ans. Je m’entraîne six fois par semaine et j’ai participé aux championnats universitaires. Ces expériences ont renforcé ma discipline, ma constance et mon esprit d’équipe. J’aime aussi voyager, en famille comme entre amis.»',
+    'about.heading_line1': 'À PROPOS',
+    'about.heading_line2': 'DE',
+    'about.heading_line3': 'MOI',
+    'about.strategy_quote': 'Je suis étudiante en 5ᵉ année d’école d’ingénieur à Polytech Nancy, spécialisée en informatique et réseaux. J’ai réalisé plusieurs projets scolaires que je présente ici, et j’aime aussi concevoir et déployer mes propres systèmes, comme un serveur Plex entièrement containerisé sur mon Raspberry Pi (Linux, Docker, SSD, accès distant via Tailscale). En dehors des études, je fais de la natation en compétition depuis plus de 10 ans. Je m’entraîne six fois par semaine et j’ai participé aux championnats universitaires. Ces expériences ont renforcé ma discipline, ma constance et mon esprit d’équipe. J’aime aussi voyager, en famille comme entre amis.',
     
 
     // Experience & Education
@@ -160,21 +159,20 @@ const translations = {
     'projects.cyber.desc': 'Analyse des écarts de conformité, modélisation des menaces et recommandations de sécurité pour réseau de capteurs industriels IoT/LoRaWAN selon le référentiel ANSSI et la méthode EBIOS RM.',
 
     // Skills
-    'skills.eyebrow': 'EXPERTISE TECHNIQUE',
+    'skills.eyebrow': 'SKILLS',
     'skills.section_title': 'COMPÉTENCES & OUTILS',
-    'skills.desc': 'Technologies, langages, réseaux et gouvernance cybersécurité issus du CV.',
-    'skills.col1_title': '01 / Langages & Web',
+    'skills.col1_title': '01 / ',
     'skills.col1_desc': 'C, C++, Java, Python, JavaScript, HTML5/CSS3, Thymeleaf, Spring Boot, Qt, LaTeX.',
-    'skills.col2_title': '02 / Réseaux, Systèmes & Outils',
+    'skills.col2_title': '02 / ',
     'skills.col2_desc': 'UNIX/Linux, TCP/UDP, IoT / LoRaWAN, Wireshark, Cisco Packet Tracer, Docker, Git, MySQL, MS Azure.',
-    'skills.col3_title': '03 / Cybersécurité & Gouvernance (GRC)',
+    'skills.col3_title': '03 / ',
     'skills.col3_desc': 'Analyse de risques (EBIOS RM), conformité ANSSI, audit des exigences de sécurité, reporting technique.',
-    'skills.col4_title': '04 / Langues',
+    'skills.col4_title': '04 / ',
     'skills.col4_desc': 'Français (Langue maternelle), Anglais (Niveau C1 — certifié TOEIC), Espagnol (Niveau B1).',
 
     // Extracurricular / Passion
     'passion.section_title': 'DISCIPLINE & SPORT',
-    'passion.quote': '« Pratique régulière de la natation en compétition depuis 14 ans. Six entraînements par semaine ont façonné ma rigueur, ma résilience et ma capacité à performer sous pression. Ma participation aux Championnats de France Universitaires a renforcé mon esprit d’équipe et ma recherche permanente de précision technique. »',
+    'passion.quote': 'Je pratique régulièrement de la natation en compétition depuis 14 ans. Ces six (ou plus) entraînements par semaine ont façonné ma rigueur, ma résilience et ma capacité à performer sous pression. Ma participation aux Championnats de France Universitaires a renforcé mon esprit d’équipe et ma recherche permanente de précision technique. ',
     'passion.author': 'Julie Zilberberg',
     'passion.author_role': 'Nageuse en compétition depuis 14 ans & Participante aux Championnats de France Universitaires',
 

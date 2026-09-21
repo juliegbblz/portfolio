@@ -77,16 +77,6 @@ export default function About() {
               <p className="strategy-card-quote">
                 {t('about.strategy_quote')}
               </p>
-              <div className="strategy-card-cta d-flex flex-column gap-2">
-                <span className="small text-muted mb-1">📍 {t('about.location')}</span>
-                <a
-                  href="/Resume_Zilberberg_Julie.pdf"
-                  download
-                  className="strategy-link"
-                >
-                  {t('about.strategy_cta')}
-                </a>
-              </div>
             </div>
           </div>
         </div>

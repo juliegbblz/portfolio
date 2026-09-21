@@ -10,16 +10,13 @@ export default function Passion() {
       img: '/natation1.jpg',
       alt: 'Julie Zilberberg at swimming competition block',
       quoteEn: '“Regular competitive swimming practice for 14 years. Training six times a week has honed my resilience, consistency, and focus under intense pressure. Competing in the French University Championships strengthened my teamwork, synchronicity, and pursuit of technical excellence.”',
-      quoteFr: '« Pratique régulière de la natation en compétition depuis 14 ans. Six entraînements par semaine ont façonné ma rigueur, ma résilience et ma capacité à performer sous pression. Ma participation aux Championnats de France Universitaires a renforcé mon esprit d’équipe et ma recherche de précision technique. »',
-      author: 'Julie Zilberberg',
-      roleEn: '14 Years Competitive Swimmer & French University Championships Competitor',
-      roleFr: 'Nageuse en compétition depuis 14 ans & Participante aux Championnats de France Universitaires'
+      quoteFr: 'Pratique régulière de la natation en compétition depuis 14 ans. Six entraînements par semaine ont façonné ma rigueur, ma résilience et ma capacité à performer sous pression. Ma participation aux Championnats de France Universitaires a renforcé mon esprit d’équipe et ma recherche de précision technique. ',
     },
     {
       img: '/natation2.jpg',
       alt: 'University championship team trophy',
-      quoteEn: '“Standing on the university championship podium with my team taught me that great software engineering, like championship relays, relies on absolute trust, synchronicity, and relentless daily preparation.”',
-      quoteFr: '« Monter sur le podium des championnats universitaires avec mon équipe m’a appris que les grands projets logiciels, tout comme les relais en compétition, reposent sur la confiance absolue, la synchronisation et la préparation quotidienne. »',
+      quoteEn: 'Standing on the university championship podium with my team taught me that great software engineering, like championship relays, relies on absolute trust, synchronicity, and relentless daily preparation.',
+      quoteFr: 'Monter sur le podium des championnats universitaires avec mon équipe m’a appris que les grands projets logiciels, tout comme les relais en compétition, reposent sur la confiance absolue, la synchronisation et la préparation quotidienne.',
       author: 'Championnats de France Universitaires',
       roleEn: 'National University Podium & Team Spirit',
       roleFr: 'Podium national universitaire & Esprit d’équipe'
@@ -27,8 +24,8 @@ export default function Passion() {
     {
       img: '/natation3.jpg',
       alt: 'Julie Zilberberg swimming butterfly',
-      quoteEn: '“Beyond athletics, I also practice recreational sewing: a craft demanding geometry, patience, and meticulous attention to seams—qualities that directly mirror building clean, maintainable software architectures.”',
-      quoteFr: '« En dehors des bassins, je pratique la couture de loisir : un artisanat exigeant géométrie, patience et précision des finitions—des qualités qui résonnent directement avec la conception de code propre et durable. »',
+      quoteEn: 'Beyond athletics, I also practice recreational sewing: a craft demanding geometry, patience, and meticulous attention to seams—qualities that directly mirror building clean, maintainable software architectures.',
+      quoteFr: 'En dehors des bassins, je pratique la couture de loisir : un artisanat exigeant géométrie, patience et précision des finitions—des qualités qui résonnent directement avec la conception de code propre et durable. ',
       author: 'Couture & Rigueur du Détail',
       roleEn: 'Precision, Geometry & Attention to Detail',
       roleFr: 'Précision, Géométrie & Sens du détail'

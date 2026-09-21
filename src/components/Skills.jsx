@@ -6,25 +6,25 @@ export default function Skills() {
 
   const skillCategories = [
     {
-      number: '01',
+      number: '01 Langages & Web',
       titleKey: 'skills.col1_title',
       descKey: 'skills.col1_desc',
       skills: ['C', 'C++', 'Java', 'Python', 'JavaScript', 'Spring Boot', 'Thymeleaf', 'Qt', 'LaTeX']
     },
     {
-      number: '02',
+      number: '02 Réseaux, Systèmes & Outils',
       titleKey: 'skills.col2_title',
       descKey: 'skills.col2_desc',
       skills: ['UNIX / Linux', 'TCP / UDP', 'IoT / LoRaWAN', 'Wireshark', 'Packet Tracer', 'Docker', 'Git', 'MySQL', 'MS Azure']
     },
     {
-      number: '03',
+      number: '03 Cybersécurité & Gouvernance (GRC)',
       titleKey: 'skills.col3_title',
       descKey: 'skills.col3_desc',
       skills: ['EBIOS RM', 'ANSSI Guidelines', 'Risk Assessment', 'Industrial IT', 'Security Gap Analysis', 'Compliance']
     },
     {
-      number: '04',
+      number: '04 Langues',
       titleKey: 'skills.col4_title',
       descKey: 'skills.col4_desc',
       skills: ['Français (Natif)', 'Anglais (C1 - TOEIC)', 'Espagnol (B1)', 'Rigueur & Méthode', 'Esprit d’équipe']
