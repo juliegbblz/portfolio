@@ -21,7 +21,7 @@ export default function Projects() {
       metaKey: 'projects.minishell.meta',
       dateKey: 'projects.minishell.date',
       descKey: 'projects.minishell.desc',
-      imgSrc: '/julie2.jpg',
+      imgSrc: '/noir.jpeg',
       link: 'https://github.com/juliegbblz'
     },
     {

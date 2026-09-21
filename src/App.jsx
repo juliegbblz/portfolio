@@ -139,7 +139,7 @@ const translations = {
     'exp.avec.desc': 'Aide aux devoirs et accompagnement scolaire hebdomadaire auprès d’enfants issus de quartiers prioritaires.',
 
     // Projects
-    'projects.section_title': 'PROJETS TECHNIQUES',
+    'projects.section_title': 'PROJETS',
     'projects.section_sub': 'Programmation système UNIX, architecture web full-stack, robotique et cybersécurité.',
     'projects.chessmate.title': 'Chessmate : Plateforme d’énigmes d’échecs',
     'projects.chessmate.meta': 'Spring Boot • API Lichess • Full-Stack • GitLab',
@@ -153,10 +153,10 @@ const translations = {
     'projects.wifibot.meta': 'C++ • Qt • Télémétrie TCP/UDP • Capteurs',
     'projects.wifibot.date': '2025',
     'projects.wifibot.desc': 'Interface graphique en C++/Qt de contrôle d’un robot WiFi via communications réseau TCP/UDP temps réel. Intégration de capteurs de télémétrie infrarouges, retour encodeurs et asservissement moteur.',
-    'projects.cyber.title': 'Audit & Analyse de Risques Cybersécurité IoT',
-    'projects.cyber.meta': 'EBIOS RM • Recommandations ANSSI • IoT Industriel',
-    'projects.cyber.date': '2026',
-    'projects.cyber.desc': 'Analyse des écarts de conformité, modélisation des menaces et recommandations de sécurité pour réseau de capteurs industriels IoT/LoRaWAN selon le référentiel ANSSI et la méthode EBIOS RM.',
+    'projects.cyber.title': 'Nuclear Quiz - Collaboration avec EDF',
+    'projects.cyber.meta': 'JS • HTML • CSS',
+    'projects.cyber.date': '2025',
+    'projects.cyber.desc': 'Développement de la composante web en JavaScript,HTML et CSS, ajoutant une couche interactive au quiz. Le backend est implementé en Node.js pour gérer la logique du jeu.',
 
     // Skills
     'skills.eyebrow': 'SKILLS',
