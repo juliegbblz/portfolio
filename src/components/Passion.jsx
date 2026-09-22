@@ -47,7 +47,7 @@ export default function Passion() {
       <div className="container py-4">
         {/* Section Heading */}
         <div className="text-center mb-5">
-          <p className="editorial-eyebrow mb-2">ENGAGEMENT & DISCIPLINE</p>
+          <p className="editorial-eyebrow mb-2">PASSIONS</p>
           <h2 className="editorial-section-title">
             {t('passion.section_title')}
           </h2>
