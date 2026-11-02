@@ -1,12 +1,32 @@
 import React from 'react'
 import { useI18n } from '../App'
 
+const sections = ['about', 'experience', 'projects', 'skills', 'passion', 'contact']
+
 export default function Nav() {
   const { t, lang, setLang } = useI18n()
 
   const toggleLang = (target) => {
     setLang(target)
     localStorage.setItem('site-lang', target)
+  }
+
+  // Ferme le menu mobile puis fait défiler jusqu'à la section.
+  // (data-bs-dismiss sur un <a> bloque la navigation : Bootstrap fait preventDefault)
+  const goToSection = (e, id) => {
+    e.preventDefault()
+    const drawer = document.getElementById('offcanvasNav')
+    const scroll = () => {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+      history.replaceState(null, '', `#${id}`)
+    }
+    const instance = window.bootstrap?.Offcanvas.getInstance(drawer)
+    if (instance) {
+      drawer.addEventListener('hidden.bs.offcanvas', scroll, { once: true })
+      instance.hide()
+    } else {
+      scroll()
+    }
   }
 
   return (
@@ -106,36 +126,17 @@ export default function Nav() {
         </div>
         <div className="offcanvas-body px-4 py-4 d-flex flex-column justify-content-between">
           <ul className="navbar-nav gap-3">
-            <li className="nav-item">
-              <a className="editorial-nav-link fs-5" href="#about" data-bs-dismiss="offcanvas">
-                {t('nav.about')}
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="editorial-nav-link fs-5" href="#experience" data-bs-dismiss="offcanvas">
-                {t('nav.experience')}
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="editorial-nav-link fs-5" href="#projects" data-bs-dismiss="offcanvas">
-                {t('nav.projects')}
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="editorial-nav-link fs-5" href="#skills" data-bs-dismiss="offcanvas">
-                {t('nav.skills')}
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="editorial-nav-link fs-5" href="#passion" data-bs-dismiss="offcanvas">
-                {t('nav.passion')}
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="editorial-nav-link fs-5" href="#contact" data-bs-dismiss="offcanvas">
-                {t('nav.contact')}
-              </a>
-            </li>
+            {sections.map((id) => (
+              <li className="nav-item" key={id}>
+                <a
+                  className="editorial-nav-link fs-5"
+                  href={`#${id}`}
+                  onClick={(e) => goToSection(e, id)}
+                >
+                  {t(`nav.${id}`)}
+                </a>
+              </li>
+            ))}
           </ul>
 
           <div className="pt-4 border-top">

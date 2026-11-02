@@ -25,13 +25,13 @@ const translations = {
     'hero.cta_cv': 'DOWNLOAD RESUME',
 
     // About
-    'about.heading_line1': 'DESIGNING',
-    'about.heading_line2': 'INTENTIONAL',
-    'about.heading_line3': 'SYSTEMS',
+    'about.heading_line1': 'ABOUT',
+    'about.heading_line2': 'ME',
+    'about.heading_line3': ' ',
     'about.p1': 'I am a 5th-year engineering student at Polytech Nancy specializing in computer science and networks. I have completed several school projects showcased here, and I also enjoy designing and deploying my own systems, such as a fully containerized Plex server on my Raspberry Pi (Linux, Docker, SSD, remote access via Tailscale).',
     'about.p2': 'Outside of academics, I have been a competitive swimmer for over 10 years, training six times a week and competing in university championships. These experiences have strengthened my discipline, consistency, and teamwork. I also love traveling with family and friends.',
     'about.strategy_title': 'INTERNSHIP SEARCH',
-    'about.strategy_quote': '“Currently seeking a 6-month end-of-studies internship starting mid-February 2027 in software engineering, networks, or cybersecurity.”',
+    'about.strategy_quote': 'I am a 5th-year engineering student at Polytech Nancy, specializing in Computer Science and Networking. Alongside the academic projects featured on this site, I enjoy designing and deploying my own systems—such as a fully containerized Plex server running on a Raspberry Pi (Linux, Docker, SSD, remote access via Tailscale). Outside of my studies, I have been a competitive swimmer for over 10 years, training six times a week and competing in university championships. These experiences have strengthened my discipline, consistency, and teamwork. I also love traveling with family and friends.',
     'about.strategy_cta': 'DOWNLOAD RESUME (PDF)',
     'about.location': 'Based in Lyon & Nancy, France',
 
@@ -53,7 +53,7 @@ const translations = {
     'exp.avec.desc': 'Provided weekly homework help, pedagogical guidance, and academic mentoring to children from underprivileged neighborhoods.',
 
     // Projects
-    'projects.section_title': 'SELECTED PROJECTS',
+    'projects.section_title': 'PROJECTS',
     'projects.section_sub': 'Technical systems, low-level UNIX programming, full-stack web platforms, and robotics.',
     'projects.chessmate.title': 'Chessmate: Tactical Chess Puzzle Platform',
     'projects.chessmate.meta': 'Spring Boot • Lichess API • Full-Stack • GitLab',
@@ -67,10 +67,10 @@ const translations = {
     'projects.wifibot.meta': 'C++ • Qt • TCP/UDP Telemetry • Embedded Sensors',
     'projects.wifibot.date': '2025',
     'projects.wifibot.desc': 'Real-time robot control GUI in C++/Qt communicating with a mobile WiFi robot via TCP/UDP. Integrates infrared telemetry distance sensors, motor speed control loops, and encoder feedback.',
-    'projects.cyber.title': 'IoT / LoRaWAN Cybersecurity Risk Audit',
-    'projects.cyber.meta': 'EBIOS RM • ANSSI Compliance • Industrial IoT',
-    'projects.cyber.date': '2026',
-    'projects.cyber.desc': 'Cybersecurity compliance gap analysis and threat modeling for industrial IoT sensor networks according to French National Cybersecurity Agency (ANSSI) guidelines and EBIOS RM risk methodology.',
+    'projects.cyber.title': 'Nuclear Quiz - Partnership with EDF',
+    'projects.cyber.meta': 'JS • NodeJS • HTML • CSS',
+    'projects.cyber.date': '2025',
+    'projects.cyber.desc': 'Development of the web component using JavaScript, HTML, and CSS, adding an interactive layer to the quiz. The backend is implemented in Node.js to handle the game logic.',
 
     // Skills
     'skills.eyebrow': 'TECHNICAL EXPERTISE',
@@ -87,7 +87,7 @@ const translations = {
 
     // Extracurricular / Passion
     'passion.section_title': 'ATHLETIC DISCIPLINE',
-    'passion.quote': '“Regular competitive swimming practice for 14 years. Training six times a week has honed my resilience, consistency, and focus under intense pressure. Competing in the French University Championships strengthened my teamwork, synchronicity, and pursuit of technical perfection.”',
+    'passion.quote': 'Regular competitive swimming practice for 14 years. Training six times a week has honed my resilience, consistency, and focus under intense pressure. Competing in the French University Championships strengthened my teamwork, synchronicity, and pursuit of technical perfection.',
     'passion.author': 'Julie Zilberberg',
     'passion.author_role': '14 Years Competitive Swimmer & French University Championships Competitor',
 

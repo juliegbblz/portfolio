@@ -9,7 +9,7 @@ export default function Passion() {
     {
       img: '/natation1.jpg',
       alt: 'Julie Zilberberg at swimming competition block',
-      quoteEn: '“Regular competitive swimming practice for 14 years. Training six times a week has honed my resilience, consistency, and focus under intense pressure. Competing in the French University Championships strengthened my teamwork, synchronicity, and pursuit of technical excellence.”',
+      quoteEn: 'Regular competitive swimming practice for 14 years. Training six times a week has honed my resilience, consistency, and focus under intense pressure. Competing in the French University Championships strengthened my teamwork, synchronicity, and pursuit of technical excellence.',
       quoteFr: 'Pratique régulière de la natation en compétition depuis 14 ans. Six entraînements par semaine ont façonné ma rigueur, ma résilience et ma capacité à performer sous pression. Ma participation aux Championnats de France Universitaires a renforcé mon esprit d’équipe et ma recherche de précision technique. ',
     },
     {
@@ -24,8 +24,8 @@ export default function Passion() {
     {
       img: '/natation3.jpg',
       alt: 'Julie Zilberberg swimming butterfly',
-      quoteEn: 'Beyond athletics, I also practice recreational sewing: a craft demanding geometry, patience, and meticulous attention to seams—qualities that directly mirror building clean, maintainable software architectures.',
-      quoteFr: 'En dehors des bassins, je pratique la couture de loisir : un artisanat exigeant géométrie, patience et précision des finitions—des qualités qui résonnent directement avec la conception de code propre et durable. ',
+      quoteEn: 'Beyond athletics, I also practice recreational sewing: a craft demanding geometry, patience, and meticulous attention to seams, qualities that directly mirror building clean, maintainable software architectures.',
+      quoteFr: 'En dehors des bassins, je pratique la couture de loisir : un artisanat exigeant géométrie, patience et précision des finitions, des qualités qui résonnent directement avec la conception de code propre et durable. ',
       author: 'Couture & Rigueur du Détail',
       roleEn: 'Precision, Geometry & Attention to Detail',
       roleFr: 'Précision, Géométrie & Sens du détail'
